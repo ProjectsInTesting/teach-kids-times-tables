@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://teachkidstimestables.com/sitemap.xml
+
+# Educational content - encourage indexing
+Allow: /learn
+Allow: /practice
+Allow: /print
+Allow: /about
+
+# Policy pages
+Allow: /privacy
+Allow: /terms
+Allow: /contact
+
+# Block any admin or development paths
+Disallow: /admin
+Disallow: /.well-known
+Disallow: /api
+
+# Crawl delay to be respectful
+Crawl-delay: 1
